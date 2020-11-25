@@ -4,7 +4,7 @@ site_url: https://stevemar.github.io/minimal-workshop-mkdocs
 site_author: IBM Developer
 
 # Repository
-repo_name: squidfunk/mkdocs-material
+repo_name: stevemar/minimal-workshop-mkdocs
 repo_url: https://github.com/stevemar/minimal-workshop/mkdocs
 
 # Copyright
@@ -61,8 +61,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+      user: stevemar
+      repo: minimal-workshop-mkdocs
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
