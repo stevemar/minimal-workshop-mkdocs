@@ -11,7 +11,7 @@ edit_uri: edit/main/docs
 # Navigation
 nav:
   - Welcome:
-    - About the workshop: welcome/index.md
+    - About the workshop: index.md
     - Compatability: welcome/compatability.md
     - Authors: welcome/authors.md
   - Get started:
