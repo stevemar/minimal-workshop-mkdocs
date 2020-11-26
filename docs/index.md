@@ -1,17 +1,29 @@
-# Welcome to MkDocs
+# Workshop Title
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to our workshop! In this workshop we'll be using foo to accomplish bar. The goals of this workshop are:
 
-## Commands
+* Goals!
+* Have fun!
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## About this workshop
 
-## Project layout
+The introductory page of the workshop is broken down into the following sections:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* [Agenda](./#agenda)
+* [Compatibility](./#compatibility)
+* [Technology Used](./#technology-used)
+* [Credits](./#credits)
+
+## Compatibility
+
+This workshop has been tested on the following platforms:
+
+* **osName**: version X, version Y
+
+## Technology Used
+
+* Brief Description
+
+## Credits
+
+* [Full Name](https://github.com/githubid)

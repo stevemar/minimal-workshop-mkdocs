@@ -1,6 +1,6 @@
-# Samples
+# Admin Guide
 
-Include some samples here.
+This page includes a few samples.
 
 ## Code
 
@@ -70,6 +70,33 @@ def bubble_sort(items):
     See [Admonitions](https://squidfunk.github.io/mkdocs-material-insiders/reference/admonitions/)
     for more examples.
 
+!!! note
+    A note.
+
+!!! abstract
+    An abstract.
+
+!!! info
+    Some info.
+
+!!! success
+    A success.
+
+!!! question
+    A question.
+
+!!! warning
+    A warning.
+
+!!! danger
+    A danger.
+
+!!! example
+    A example.
+
+!!! bug
+    A bug.
+
 ## Call outs with code
 
 !!! note
@@ -77,7 +104,7 @@ def bubble_sort(items):
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-    ``` python
+    ```python
     def bubble_sort(items):
         for i in range(len(items)):
             for j in range(len(items) - 1 - i):
@@ -89,3 +116,6 @@ def bubble_sort(items):
     sem ut cursus. Nullam sit amet tincidunt ipsum, sit amet elementum turpis.
     Etiam ipsum quam, mattis in purus vitae, lacinia fermentum enim.
 
+## Images
+
+![image](../assets/bee.png)

@@ -1,21 +1,52 @@
 # Project information
-site_name: Minimal Workshop Template
+site_name: Workshop Title
 site_url: https://stevemar.github.io/minimal-workshop-mkdocs
 site_author: IBM Developer
 
 # Repository
-repo_name: stevemar/minimal-workshop-mkdocs
-repo_url: https://github.com/stevemar/minimal-workshop/mkdocs
+repo_name: minimal-workshop-mkdocs
+repo_url: https://github.com/stevemar/minimal-workshop-mkdocs
+edit_uri: edit/main/docs
+
+# Navigation
+nav:
+  - Welcome: index.md
+  - Get started:
+    - Prerequisites: get-started/prereqs.md
+    - The environment: get-started/environment.md
+    - About the data set: get-started/data-set.md
+    - Feedback survey: get-started/survey.md
+  - Workshop:
+    - Lab 1: workshop/lab-1.md
+    - Lab 2: workshop/lab-2.md
+    - Lab 3: workshop/lab-3.md
+    - Lab 4: workshop/lab-4.md
+  - Reference:
+    - Admin guide: reference/admin-guide.md
+    - About mkdocs: reference/mkdocs.md
+  - Changelog:
+    - Release notes: changelog.md
+
+## DO NOT CHANGE BELOW THIS LINE
 
 # Copyright
 copyright: Copyright &copy; 2020 IBM Developer
 
+# Theme
 theme:
   name: material
   font:
     text: IBM Plex Sans
     code: IBM Plex Mono
   logo: assets/bee.png
+  favicon: assets/favicon.png
+  features:
+    - navigation.tabs
+    #- navigation.instant
+  palette:
+    scheme: default
+    primary: blue
+    accent: blue
 
 # Plugins
 plugins:
@@ -28,19 +59,17 @@ extra:
       link: https://github.com/ibm
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/ibmdeveloper
-
-# Page tree
-nav:
-  - Home: index.md
-  - Getting started:
-    - Installation: intro/lab-1.md
-  - Lab 1:
-    - Another Section: setup/lab-1.md
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/ibm/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/user/developerworks
+    - icon: fontawesome/brands/dev
+      link: https://dev.to/ibmdeveloper
 
 # Extensions
 markdown_extensions:
-  - admonition
   - abbr
+  - admonition
   - attr_list
   - def_list
   - footnotes
@@ -60,10 +89,6 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
-  - pymdownx.magiclink:
-      repo_url_shorthand: true
-      user: stevemar
-      repo: minimal-workshop-mkdocs
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
@@ -77,4 +102,3 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-
