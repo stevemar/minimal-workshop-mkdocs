@@ -20,7 +20,6 @@ nav:
     - Lab 1: workshop/lab-1.md
     - Lab 2: workshop/lab-2.md
     - Lab 3: workshop/lab-3.md
-    - Lab 4: workshop/lab-4.md
   - Reference:
     - Admin guide: reference/admin-guide.md
     - About mkdocs: reference/mkdocs.md

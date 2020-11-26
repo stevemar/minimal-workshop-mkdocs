@@ -1,4 +1,4 @@
-# Exercise Title
+# Lab: Next Lab
 
 Description goes here.
 

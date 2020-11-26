@@ -2,6 +2,6 @@
 
 ## Workshop changes
 
-### 1.0.0 <small>_ November 22, 2020</small>
+### 1.0.0: November 22, 2020
 
 - Initial release
