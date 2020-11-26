@@ -1,4 +1,4 @@
-# Admin Guide
+# mkdocs examples
 
 This page includes a few samples.
 
