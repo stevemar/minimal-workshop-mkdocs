@@ -10,7 +10,10 @@ edit_uri: edit/main/docs
 
 # Navigation
 nav:
-  - Welcome: index.md
+  - Welcome:
+    - About the workshop: welcome/index.md
+    - Compatability: welcome/compatability.md
+    - Authors: welcome/authors.md
   - Get started:
     - Prerequisites: get-started/prereqs.md
     - The environment: get-started/environment.md
