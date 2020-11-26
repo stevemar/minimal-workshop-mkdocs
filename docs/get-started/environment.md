@@ -4,7 +4,7 @@ This section will explain how to access your environment.
 
 ## Credentials
 
-|   |   |   |
+| OS or Application | Username | Password |
 | - | - | - |
 | Windows VM | `Administrator` | `foo` |
 | Linux VM | `root` | `bar` |
