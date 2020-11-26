@@ -15,6 +15,7 @@ theme:
   font:
     text: IBM Plex Sans
     code: IBM Plex Mono
+  logo: assets/bee.png
 
 # Plugins
 plugins:
