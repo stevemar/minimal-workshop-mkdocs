@@ -1,5 +1,7 @@
 # Additional resources
 
+> Add links that the students can use to learn more about the technology that was presented to them.
+
 ## Demos
 
 * [Collection: InfoSphere Information Server](https://www.ibm.com/demos/collection/IBM-InfoSphere-DataStage)

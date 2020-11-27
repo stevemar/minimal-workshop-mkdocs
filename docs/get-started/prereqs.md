@@ -1,11 +1,16 @@
 # Pre-work
 
-This section is broken up into the following steps:
+> Describe how students will access their environment. Below is an example.
 
-1. [Sign up for IBM Cloud](#1-sign-up-for-ibm-cloud)
-
-## 1. Sign up for IBM Cloud
+## 1. IBM Cloud
 
 Ensure you have an IBM Cloud ID
 
-![Cloud Sign up](../assets/bee.png)
+[Sign up for IBM Cloud! :cloud:](https://cloud.ibm.com/register){: .md-button .md-button--primary }
+
+## 2. GitHub
+
+Ensure you have a GitHub account
+
+[Sign up for GitHub](https://github.com){: .md-button .md-button--primary }
+

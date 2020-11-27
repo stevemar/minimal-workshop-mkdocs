@@ -1,16 +1,32 @@
-# Lab: Title
+# Lab: Integrate with a thing
 
-Description goes here.
+Why is this lab important? What is the benefit of doing it?
 
-This section is comprised of the following steps:
+What will the reader learn?
 
-1. [Step 1](#1-step-1)
-1. [Step 2](#2-step-2)
+* Goal 1
+* Goal 2
 
-## 1. Step 1
+This lab consists of the following steps:
 
-Things to do in Step 1
+1. [Configure a doodad](#1-configure-the-doodad)
+1. [Run the gizmo](#2-run-the-gizmo)
 
-## 2. Step 2
+## 1. Configure a doodad
 
-Things to do in Step 2
+Write out a sentence, and the include an image.
+
+![setup](images/lab-1/image.png)
+
+For the `Server` click on the `Git` tab and input the following:
+
+* **Email address**: Your BitBucket email
+* **Username**: Your BitBucket username
+
+## 2. Run the gizmo
+
+Write out a sentence, and the include an image.
+
+![setup](images/lab-1/image.png)
+
+**CONGRATULATIONS!!** You have completed this lab!

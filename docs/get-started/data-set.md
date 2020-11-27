@@ -1,5 +1,7 @@
 # About the data sets
 
+> List out any external data sets that will be used in the workshop. Below is an example.
+
 In this workshop we will use the following data sets:
 
 * `churn.csv` from <https://data.world/earino/churn>

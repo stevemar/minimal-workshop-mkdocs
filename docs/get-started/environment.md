@@ -1,5 +1,7 @@
 # About the environment
 
+> Describe how students will access their environment. Below is an example.
+
 This section will explain how to access your environment.
 
 ## Credentials

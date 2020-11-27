@@ -1,6 +1,6 @@
 # mkdocs examples
 
-This page includes a few samples.
+This page includes a few neat tricks that you can do with `mkdocs`. For a complete list of examples visit the [mkdocs documentation](https://squidfunk.github.io/mkdocs-material-insiders/reference/abbreviations/).
 
 ## Code
 
@@ -28,10 +28,9 @@ def bubble_sort(items):
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
 
-
 ## Code with tabs
 
-=== "C"
+=== "Tab Header"
 
     ```c
     #include <stdio.h>
@@ -42,7 +41,7 @@ def bubble_sort(items):
     }
     ```
 
-=== "C++"
+=== "Another Tab Header"
 
     ```c++
     #include <iostream>
@@ -53,9 +52,33 @@ def bubble_sort(items):
     }
     ```
 
+## More tabs
+
+=== "Windows"
+
+    If on windows download the `Win32.zip` file and install it.
+
+=== "MacOS"
+
+    Run `brew install foo`.
+
+=== "Linux"
+
+    Run `apt-get install foo`.
+
+## Checklists
+
+* [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
+* [ ] Vestibulum convallis sit amet nisi a tincidunt
+    * [x] In hac habitasse platea dictumst
+
 ## Add a button
 
 [Launch the lab](https://developer.ibm.com){: .md-button .md-button--primary }
+
+[Visit IBM Developer](https://developer.ibm.com){: .md-button }
+
+[Sign up! :fontawesome-solid-paper-plane:](https://cloud.ibm.com){: .md-button .md-button--primary }
 
 ## Sidebar call out
 
@@ -116,6 +139,41 @@ def bubble_sort(items):
     sem ut cursus. Nullam sit amet tincidunt ipsum, sit amet elementum turpis.
     Etiam ipsum quam, mattis in purus vitae, lacinia fermentum enim.
 
+## Formatting
+
+In addition to the usual *italics*, and **bold** there is now support for:
+
+* ==highlighted==
+* ^^underlined^^
+* ~~strike-through~~
+
+## Tables
+
+| **OS or Application** | **Username** | **Password** |
+| - | - | - |
+| Windows VM | `Administrator` | `foo` |
+| Linux VM | `root` | `bar` |
+
+## Emojis
+
+Yes, these work. :smiley: :+1:
+
+## Embedding social media
+
+Use the "Embed" function and copy/paste the HTML.
+
+<div class="video-wrapper">
+  <iframe width="800" height="450" src="https://www.youtube.com/embed/2Z64G-Wyhqg" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Images
 
 ![image](../assets/bee.png)
+
+Nunc eu odio eleifend, blandit leo a, volutpat sapien
+
+## right align image
+
+![Placeholder](../assets/bee.png){: align=right }
+
+Nunc eu odio eleifend, blandit leo a, volutpat sapien

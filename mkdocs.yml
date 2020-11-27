@@ -25,9 +25,9 @@ nav:
     - Lab 2: workshop/lab-2.md
     - Lab 3: workshop/lab-3.md
   - Reference:
+    - Additional resources: reference/resources.md
     - Admin guide: reference/admin-guide.md
     - About mkdocs: reference/mkdocs.md
-    - Additional resources: reference/resources.md
   - Changelog:
     - Release notes: changelog.md
 
