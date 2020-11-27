@@ -80,18 +80,11 @@ def bubble_sort(items):
 
 [Sign up! :fontawesome-solid-paper-plane:](https://cloud.ibm.com){: .md-button .md-button--primary }
 
-## Sidebar call out
-
-!!! note inline end
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+## Call outs
 
 !!! tip
     You can use `note`, `abstract`, `info`, `tip`, `success`, `question`
     `warning`, `failure`, `danger`, `bug`, `quote` or `example`.
-    See [Admonitions](https://squidfunk.github.io/mkdocs-material-insiders/reference/admonitions/)
-    for more examples.
 
 !!! note
     A note.
