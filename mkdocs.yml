@@ -6,7 +6,7 @@ site_author: IBM Developer
 # Repository
 repo_name: minimal-workshop-mkdocs
 repo_url: https://github.com/stevemar/minimal-workshop-mkdocs
-edit_uri: edit/main/docs
+edit_uri: edit/master/docs
 
 # Navigation
 nav:
@@ -41,8 +41,11 @@ theme:
   font:
     text: IBM Plex Sans
     code: IBM Plex Mono
-  logo: assets/bee.png
-  favicon: assets/favicon.png
+  # Choose between specifying a file with "logo"
+  # or using a built-in one with "icon"
+  #logo: assets/bee.png
+  icon:
+    logo: material/library
   features:
     - navigation.tabs
     #- navigation.instant
