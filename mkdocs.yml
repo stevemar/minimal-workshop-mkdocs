@@ -1,11 +1,12 @@
 # Project information
-site_name: Workshop Title
+site_name: Minimal Workshop
 site_url: https://stevemar.github.io/minimal-workshop-mkdocs
 site_author: IBM Developer
 
 # Repository
 repo_name: minimal-workshop-mkdocs
 repo_url: https://github.com/stevemar/minimal-workshop-mkdocs
+# Change the middle parameter to the default branch, "master" or "main"
 edit_uri: edit/master/docs
 
 # Navigation
