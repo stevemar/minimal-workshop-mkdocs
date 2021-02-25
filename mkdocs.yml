@@ -48,8 +48,9 @@ theme:
   icon:
     logo: material/library
   features:
-    - navigation.tabs
-    #- navigation.instant
+    #- navigation.tabs
+    - navigation.instant
+    - navigation.expand
   palette:
     scheme: default
     primary: blue
@@ -72,6 +73,8 @@ extra:
       link: https://www.youtube.com/user/developerworks
     - icon: fontawesome/brands/dev
       link: https://dev.to/ibmdeveloper
+  version:
+    provider: mike
 
 # Extensions
 markdown_extensions:
