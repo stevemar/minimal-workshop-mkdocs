@@ -1,4 +1,4 @@
-# Workshop Title
+# Workshop Title 2.0
 
 Welcome to our workshop! In this workshop we'll be using foo to accomplish bar. The goals of this workshop are:
 
