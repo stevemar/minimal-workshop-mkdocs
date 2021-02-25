@@ -2,6 +2,17 @@
 
 This page includes a few neat tricks that you can do with `mkdocs`. For a complete list of examples visit the [mkdocs documentation](https://squidfunk.github.io/mkdocs-material-insiders/reference/abbreviations/).
 
+## Versioning
+
+To create versions run these commands:
+
+```bash
+mike deploy --update-aliases 1.0 latest
+mike set-default latest
+mike deploy --update-aliases 2.0 latest
+mkdocs serve
+```
+
 ## Code
 
 ```python
